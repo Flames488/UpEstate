@@ -1,0 +1,10 @@
+
+CREATE TABLE IF NOT EXISTS payment_transactions (
+    id VARCHAR PRIMARY KEY,
+    reference VARCHAR UNIQUE NOT NULL,
+    amount NUMERIC NOT NULL,
+    currency VARCHAR DEFAULT 'NGN',
+    status VARCHAR NOT NULL,
+    verified BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
