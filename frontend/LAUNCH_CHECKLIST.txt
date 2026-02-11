@@ -1,0 +1,18 @@
+
+LAUNCH-READY FRONTEND CHECKLIST
+
+✔ Single App Router architecture
+✔ Server-side auth enforced (layouts)
+✔ Middleware route protection
+✔ Admin RBAC enforced server-side
+✔ Quota-driven monetization UX
+✔ Centralized auth model
+✔ No client-only security
+✔ Production-safe routing
+
+PRE-DEPLOY:
+- Set JWT_SECRET
+- Enable HTTPS
+- Verify cookie domain
+- Test role-based access
+- Verify quota limits from backend
