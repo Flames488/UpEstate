@@ -1,0 +1,5 @@
+services:
+- type: web
+  name: real-estate-api
+  env: python
+  startCommand: gunicorn wsgi:app
